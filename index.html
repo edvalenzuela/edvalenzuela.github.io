@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="es">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>La Lógica Web | Portafolio | @johndoe.js | Chile</title>
+    <meta name="description" content="Mi portafolio front end con tecnologías como angular, react, react native, mongodb, express, nodejs">
+    <meta name="author" content="Eduardo Valenzuela">
+		<meta name="keywords" content="front end, html, css, bootstrap, tailwindcss, jQuery, javascript, angular, react, react native, mongodb, express, nodejs, firebase, github" />
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/logo.png">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+               <firstletter id="letra-l">L</firstletter>a<firstletter id="letra-ll">&nbspL</firstletter>ógica&nbsp<firstletter id="letra-w">W</firstletter>eb
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Menu</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">Sobre mi</a></li>
+                    <li><a class="smoothscroll"  href="#proyectos" title="proyectos">Proyectos</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contacto</a></li>
+                </ul>
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll">
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+            <div class="row home-content__main">
+                <h1>Bienvenidos a mi portafolio</h1>
+                <h3><a style="color: white;" href="https://www.instagram.com/johndoe.js" target="_blank" title="Ir a instagram">@johndoe.js</a></h3>
+            </div>
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll"></a>
+            </div>
+        </div> <!-- end home-content -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1 display-1--light">Sobre mi</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>Soy ingeniero en informática titulado del Duoc UC en el año 2018 con experiencia Semi senior con cuatro años especializado en desarrollo Front end.
+								</p>
+								<div>
+									<img id="image" data-size="512" class="img-responsive" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png" title="MongoDB" style="height: 64px;" alt="MongoDB">
+									<img id="image" data-size="512" class="img-responsive" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/angular_logo_icon_169595.png" title="Angular" alt="Angular" style="height: 64px;"> 
+									<img id="image" data-size="512" class="img-responsive" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png" title="React / React Native" alt="React" style="height: 64px;">
+									<img id="image" data-size="512" class="img-responsive" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png" title="NodeJS" alt="NodeJS" style="height: 64px;">
+								</div>
+            </div>
+        </div> <!-- end about-desc -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='proyectos' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-2">Proyectos</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                </div>
+                <div class="service-text">
+									<h3 class="h2">Amiibo API</h3>
+									<p>Proyecto final del curso de React con Tailwindcss | EscalabAcademy
+									</p>
+									<a class="btn-project" href="https://github.com/edvalenzuela/proyecto-amiibo" target="_blank">Ver</a>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="service-text">
+									<h3 class="h2">Líquidos API</h3>
+									<p>Consumo API de bebidas "the cocktaildb" con bootstrap 
+									</p>
+									<a class="btn-project" href="https://github.com/edvalenzuela/proyecto-liquidos" target="_blank">Ver</a>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                </div>  
+                <div class="service-text">
+									<h3 class="h2">Digimon API</h3>
+									<p>Proyecto final del curso de Angular 8 | ProgramadoresChile 
+									</p>
+									<a class="btn-project" href="https://github.com/edvalenzuela/proyecto-digimon-api" target="_blank">Ver</a>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-earth"></i>
+                </div>
+                <div class="service-text">
+									<h3 class="h2">Maps API</h3>
+									<p>Proyecto final del curso de React Native | EscalabAcademy 
+									</p>
+									<a class="btn-project" href="https://github.com/edvalenzuela/rn-proyecto-apimaps" target="_blank">Ver</a>
+                </div>
+            </div>
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+							<h1 class="display-2 display-2--light">Contacto</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Información de contacto</h3>
+
+                    <div class="cinfo">
+                        <h5>Correo</h5>
+                        <p>edvalenzuelap@gmail.com<br></p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Número</h5>
+                        <p>+569 64818866<br></p>
+                    </div>
+
+                    <ul class="contact-social">
+											<li>
+												<a href="https://github.com/edvalenzuela" href="_blank" title="Ir a github">
+														<div class="cont-icon color-git">
+																<div class="cont-git"></div>
+														</div>
+												</a>
+											</li>
+											<li>
+													<a href="https://www.linkedin.com/in/edvalenzuelap" href="_blank" title="Ir a linkedin">
+															<div class="cont-icon color-linkedin">
+																	<div class="cont-linkedin"></div>
+															</div>
+													</a>
+											</li>
+											<li>
+													<a href="https://www.youtube.com/c/lalogicaweb" href="_blank" title="Ir a youtube">
+															<div class="cont-icon color-yt">
+																	<div class="cont-yt"></div>
+															</div>
+													</a>
+											</li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright La Lógica Web</span> 
+                    <span><a href="https://www.instagram.com/johndoe.js" target="_blank" title="Ir a instagram">@johndoe.js</a></span>	
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/color-letter.js"></script>
+
+</body>
+
+</html>
