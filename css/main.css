@@ -3267,22 +3267,34 @@ html.no-csstransitions .home-content__main {
 .contact-social li a:hover, 
 .contact-social li a:focus {color: #39b54a;}
 
-.contact-social li a .color-git:hover,
-.contact-social li a .color-face:hover,
+.contact-social li a .color-linkedin:hover,
+.contact-social li a .color-insta:hover,
 .contact-social li a .color-yt:hover,
-.contact-social li a .color-tw:hover,
-.contact-social li a .color-linkedin:hover{opacity: 1;transition: .1s;}
+.contact-social li a .color-git:hover{
+	opacity: 1;transition: .1s;
+}
 
 .contact-social li a .cont-icon{position: relative;width: 35px;height: 35px;display: table;border-radius: 50px;box-shadow: 0 5px 10px rgba(50,50,50,.75);opacity: 0.3;} 
-.contact-social li a .color-face{background-color: #3B5998;}
-.contact-social li a .color-face .cont-face{background: url(../images/redes/facebook.png)no-repeat center; background-size: 50%; display: table-cell; vertical-align: middle;} 
-.contact-social li a .color-yt{background-color: #f00;}
-.contact-social li a .color-yt .cont-yt{background: url(../images/redes/youtube.png)no-repeat center; background-size: 50%; display: table-cell; vertical-align: middle;} 
-.contact-social li a .color-git{background-color: white;}
-.contact-social li a .color-git .cont-git{background: url(../images/redes/github.png)no-repeat center; background-size: 50%; display: table-cell; vertical-align: middle;} 
 .contact-social li a .color-linkedin{background-color: #0177B5;}
-.contact-social li a .color-linkedin .cont-linkedin{background: url(../images/redes/linkedin.png)no-repeat center; background-size: 50%; display: table-cell; vertical-align: middle;}
+.contact-social li a .color-linkedin .cont-linkedin{background: url(../images/redes/linkedin.png)no-repeat center;}
+.contact-social li a .color-insta .cont-insta{background: url(../images/redes/instagram.png)no-repeat center;}
+.contact-social li a .color-insta{background-color: #0177B5;}
+.contact-social li a .color-yt{background-color: #f00;}
+.contact-social li a .color-yt .cont-yt{background: url(../images/redes/youtube.png)no-repeat center;} 
+.contact-social li a .color-git{background-color: white;}
+.contact-social li a .color-git .cont-git{background: url(../images/redes/github.png)no-repeat center;} 
 .contact-social li:last-child {margin: 0; }
+
+.contact-social li a .color-linkedin .cont-linkedin:first-child{
+	background-size: 100%;
+}
+
+.contact-social li a .color-linkedin .cont-linkedin,
+.contact-social li a .color-insta .cont-insta,
+.contact-social li a .color-yt .cont-yt,
+.contact-social li a .color-git .cont-git{
+	background-size: 50%; display: table-cell; vertical-align: middle;
+}
 
 .message-warning, 
 .message-success {
